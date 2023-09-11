@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_xy ra li trong khi truy xut thng tin ch_871960</name>
+   <tag></tag>
+   <elementGuidId>02010454-b7dd-4ad2-8784-f0245b97480b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='movie_player']/div[37]/div/div[2]/div[5]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ytp-scrubber-pull-indicator</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b2655bea-0aad-43e4-90a9-389b82ec9492</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ytp-scrubber-pull-indicator</value>
+      <webElementGuid>77680f86-e95f-41b1-a521-ce5a470a4e23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;movie_player&quot;)/div[@class=&quot;ytp-chrome-bottom&quot;]/div[@class=&quot;ytp-progress-bar-container&quot;]/div[@class=&quot;ytp-progress-bar&quot;]/div[@class=&quot;ytp-scrubber-container&quot;]/div[@class=&quot;ytp-scrubber-button ytp-swatch-background-color ytp-scrubber-button-hover&quot;]/div[@class=&quot;ytp-scrubber-pull-indicator&quot;]</value>
+      <webElementGuid>8a245f56-cc7a-46cf-be55-7e8541484c97</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='movie_player']/div[37]/div/div[2]/div[5]/div/div</value>
+      <webElementGuid>57fa43cf-e963-4b68-82d5-e3aa87ded214</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[5]/div/div</value>
+      <webElementGuid>b4b6c6f5-a64c-44c7-b899-92488148be26</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
