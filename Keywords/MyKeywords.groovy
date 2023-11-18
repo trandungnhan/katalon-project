@@ -19,19 +19,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class MyKeywords {
-	
+
 	@Keyword(keywordObject = 'hello')
 	def hello() {
 		println(" Hello World ")
 	}
-	
+
 	@Keyword(keywordObject = 'hello')
 	def login() {
 		WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_username'), 'Admin')
 		WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 		WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
 	}
-	
+
 	@Keyword(keywordObject = 'hello')
 	def helloUser(String user){
 		println ("Hello " + user)

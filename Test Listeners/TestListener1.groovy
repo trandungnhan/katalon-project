@@ -24,17 +24,23 @@ import com.kms.katalon.core.annotation.AfterTestCase
 import com.kms.katalon.core.annotation.AfterTestSuite
 import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
+import pages.HomePage
+import common.Utils
 
 class TestListener1 {
 	
+	HomePage homepage = new HomePage()
+	Utils utils = new Utils()
+	
+	
 	@BeforeTestCase
 	def beforeTestCase() {
-		println ' I am insdie beforeTestCase '
+		homepage.openTheMangenToPage()
 	}
 	
 	@AfterTestCase
 	def afterTestCase() {
-		println ' I am inside afterTestCase '
+		utils.closeBrowser()
 	}
 	
 	@BeforeTestSuite
